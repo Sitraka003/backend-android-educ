@@ -4,7 +4,6 @@ const mongoose = require("mongoose"),
 
 const qcmSchema = new Schema({
     idLecon: { type: ObjectId, ref: "Lecon", required: true },
-
 });
 
 module.exports = qcmSchema;

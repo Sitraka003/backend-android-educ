@@ -28,7 +28,6 @@ router.post("/login", function (req, res) {
             data: {user: only(user, USER_FIND)},
         });
     }
-
 })
 router.use("/api", api);
 

@@ -5,7 +5,6 @@ const mongoose = require("mongoose"),
 const leconSchema = new Schema({
     titre: { type: String, required: true },
     typeLecon: { type: ObjectId, ref: "TypeLecon", required: true },
-
 });
 
 module.exports = leconSchema;
